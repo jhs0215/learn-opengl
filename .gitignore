@@ -26,7 +26,21 @@
 *.a
 *.lib
 
+# Folder 
+.vs
+.vscode
+.idea
+temp
+
 # Executables
 *.exe
 *.out
 *.app
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.ipdb
+*.iobj
+*.user
