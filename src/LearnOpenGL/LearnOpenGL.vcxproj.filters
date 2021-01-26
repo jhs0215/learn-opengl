@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="__Library__">
+      <UniqueIdentifier>{af28c1fd-2099-4055-86dd-7a81a32db787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Library__\include">
+      <UniqueIdentifier>{1b9abde3-21a5-4d6f-b1c9-471899ad8c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{0acc3afa-34f1-4a55-ba5e-c4f3d67ab9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Wnd">
+      <UniqueIdentifier>{89110521-2f43-451e-a9ce-d912a7d7d94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Wnd\Base">
+      <UniqueIdentifier>{d53acf9a-ee89-4ab8-b0ca-e985d353af4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Getting started">
+      <UniqueIdentifier>{0a9ccd74-a322-4e0f-8b09-c9ed1a4e255b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Getting started\Hello Triangle">
+      <UniqueIdentifier>{9693561f-7595-4144-adf8-aea56843719e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Getting started\Shaders">
+      <UniqueIdentifier>{37aba1ab-d266-474f-9ca4-181102e05fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Advanced Lighting">
+      <UniqueIdentifier>{b444daf6-7fac-40bd-aa9d-8f47cddb2990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Advanced Lighting\Shadows">
+      <UniqueIdentifier>{16aba9a3-2cae-4588-ab6d-3ec898bb1241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Base">
+      <UniqueIdentifier>{95ce5e6f-0191-4b02-bdb1-bb5ec1fca307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Getting started\Camera">
+      <UniqueIdentifier>{d3010b95-531c-4ac3-8a29-ad876b974705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Lighting">
+      <UniqueIdentifier>{2e55ecd0-6487-43cb-baac-f3f21fa89718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Model Loading">
+      <UniqueIdentifier>{5f722185-e3ce-4aa8-a06d-452d2afb840c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. PBR">
+      <UniqueIdentifier>{5cf8dc5b-8c89-4231-acd4-2f2699995b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Lighting\Lighting Maps">
+      <UniqueIdentifier>{6eb09039-34ea-49cb-91b3-611ad93f8258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Lighting\Multiple Lights">
+      <UniqueIdentifier>{0d0d0dcd-6551-41f9-81b9-576e31dbe770}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FrameWnd.cpp">
+      <Filter>Example\Wnd\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelWnd.cpp">
+      <Filter>Example\Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowWnd.cpp">
+      <Filter>Example\Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="learnopengl\image.cpp">
+      <Filter>__Library__</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\v141\GLAD\glad.c">
+      <Filter>__Library__\include</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GlfwHelloTriangle.cpp">
+      <Filter>01. Getting started\Hello Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwFrame.cpp">
+      <Filter>00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwShaders.cpp">
+      <Filter>01. Getting started\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwShadows.cpp">
+      <Filter>04. Advanced Lighting\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramDirectory.cpp">
+      <Filter>00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwCamera.cpp">
+      <Filter>01. Getting started\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwLightingMaps.cpp">
+      <Filter>02. Lighting\Lighting Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="GlfwMultipleLights.cpp">
+      <Filter>02. Lighting\Multiple Lights</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="learnopengl\shader_s.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWnd.h">
+      <Filter>Example\Wnd\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\camera.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\shader_m.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\shader.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\mesh.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\model.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelWnd.h">
+      <Filter>Example\Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowWnd.h">
+      <Filter>Example\Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\image.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="learnopengl\stb_image.h">
+      <Filter>__Library__</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwHelloTriangle.h">
+      <Filter>01. Getting started\Hello Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwFrame.h">
+      <Filter>00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwShaders.h">
+      <Filter>01. Getting started\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwShadows.h">
+      <Filter>04. Advanced Lighting\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramDirectory.h">
+      <Filter>00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwCamera.h">
+      <Filter>01. Getting started\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwLightingMaps.h">
+      <Filter>02. Lighting\Lighting Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="GlfwMultipleLights.h">
+      <Filter>02. Lighting\Multiple Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="includeExample.h" />
+    <ClInclude Include="IncludeOgl.h" />
+  </ItemGroup>
+</Project>
